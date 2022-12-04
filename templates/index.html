@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Создание сайта</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	
+  <style>
+    body{
+      background-repeat: no-repeat;
+      background-attached:fixed;
+      background-size:cover;
+      background-image:url({{url_for('static',filename='variant/4.jpg')}})
+    }
+    .button {
+      border: none;
+      color: white;
+      padding: 8px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .button1 {
+      background-color: white; 
+      color: black; 
+      border: 5px solid #4CAF50;
+      margin: 0 auto;
+      display: block;
+      margin-top:43% ;
+      width: 18%;
+    }
+
+    .button1:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .button2 {
+      background-color: white; 
+      color: black; 
+      border: 5px solid #008CBA;
+      margin: 0 auto;
+      display: block;
+      width: 18%;
+    }
+
+    .button2:hover {
+      background-color: #008CBA;
+      color: white; 
+    }
+
+
+    .kvadrat {
+      padding: 10px; /* Поля вокруг текста */
+      margin-top: 11.9%;
+      margin-left: 15%;
+      width: 70%;
+      background: #dcefff; /* Цвет фона */;
+    }
+  </style>
+
+  <div class="menu">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+     <a class="navbar-brand" href="#">Обучение языку жестов</a>
+
+ </div>
+</nav>
+</div> 
+
+<div class="kvadrat"><!-- Квадрат по центру для размещение контента и привлечение внимания на информацию -->
+
+
+
+  <div class="content">
+    <button class="button button1"onclick="document.location='Registration.html'">Регистрация</button><br>
+    <button class="button button2"onclick="document.location='Log_in.html'">Войти</button>
+  </div>
+
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
